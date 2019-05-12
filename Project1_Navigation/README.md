@@ -23,6 +23,7 @@ The following files are available:
 6. `Requirements.txt`: Environment dependencies
 7. `/saved/DQN_exp/`: Contains the saved model weights
 8. `Report.pdf`: Technical report describing the project solution and results
+9. `plot.py`: Plot of score per episode
 
 ## Getting Started
 All environment dependencies can be found in `Requirements.txt`. To run this code, you need an environment with Python 3. The
