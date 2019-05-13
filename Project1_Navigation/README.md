@@ -16,14 +16,12 @@ The task is episodic, and in order to solve the environment, the agent must get 
 ## File Structure
 The following files are available:
 1. `Navigation.ipynb`: Jupyter notebook that contains the code to train the agent
-2. `config.json`: Contains the model training as well as system parameters
-3. `dqn_agent.py`: Contains the Agent Class and ReplayBuffer class with associated methods
-4. `main.py`: Main script to train the agent for your local machine
-5. `model.py`: Defines the Q network class used to map state to action values
-6. `Requirements.txt`: Environment dependencies
-7. `/saved/DQN_exp/`: Contains the saved model weights
-8. `Report.pdf`: Technical report describing the project solution and results
-9. `plot.py`: Plot of score per episode
+2. `dqn_agent.py`: Contains the Agent Class and ReplayBuffer class with associated methods
+3. `model.py`: Defines the Q network class used to map state to action values
+4. `Requirements.txt`: Environment dependencies
+5. `model_trained_solved.pth`: Saved model weights for the solved environment
+6. `Report.pdf`: Technical report describing the project solution and results
+7. `plot.py`: Plot of score per episode
 
 ## Getting Started
 All environment dependencies can be found in `Requirements.txt`. To run this code, you need an environment with Python 3. The
